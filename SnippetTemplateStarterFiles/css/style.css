@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -23,6 +25,38 @@ header .logo{
     width: 120px;
     margin-top: 5px;
     margin-left: 7%;
+}
+
+header .lupa-sign-button{
+    width: 300px;
+    height: 40px;
+    margin-top: -38px;
+    margin-left: 75%;
+    display: flex;
+    padding: 10px;
+}
+
+.lupa-sign-button img{
+    width: 30px;
+}
+
+.lupa-sign-button p{
+    color: #000;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    margin-left: 5%;
+}
+
+.lupa-sign-button button{
+    background: #000;
+    color: #FFF;
+    border-color: transparent;
+    border-radius: 4px;
+}
+
+.lupa-sign-button button span{
+    color: #808080;
 }
 
 .content{
