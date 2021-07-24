@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 *{
     margin: 0;
@@ -9,7 +10,7 @@
 .hero{
     width: 100%;
     height: 800px;
-    background-image: url('/SnippetTemplateStarterFiles/Assets/Background.png');
+    background-image: url('../Assets/Background.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -44,19 +45,50 @@ header .lupa-sign-button{
     color: #000;
     font-size: 12px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 800;
+    font-weight: 300;
     margin-left: 5%;
 }
 
 .lupa-sign-button button{
+    width: 160px;
+    height: 39px;
     background: #000;
     color: #FFF;
-    border-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: -10px;
+    margin-left: 5%;
+    border-style: none;
     border-radius: 4px;
 }
 
 .lupa-sign-button button span{
     color: #808080;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.hero .hero-content{
+    width: 100%;
+    height: 500px;
+    margin-top: 7%;
+    position: absolute;
+}
+
+.hero-content h1{
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.hero-content p{
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
 }
 
 .content{
