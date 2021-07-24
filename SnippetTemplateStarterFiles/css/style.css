@@ -127,7 +127,7 @@ header .lupa-sign-button{
 .content .content-left{
     width: 670px;
     height: 400px;
-    margin-top: 5%;
+    margin-top: 6%;
     margin-left: 17%;
 }
 
@@ -163,8 +163,46 @@ header .lupa-sign-button{
     font-weight: 300;
 }
 
+.content-right{
+    float: right;
+    margin-top: -24.5%;
+    margin-right: 10%;
+}
+
+.content-right img{
+    width: 620px;
+}
+
 footer{
     width: 100%;
-    height: 200px;
-    background: blue;
+    height: 80px;
 }
+
+footer .logo-footer{
+    width: 130px;
+    height: 30px;
+    margin-top: 1%;
+    margin-left: 6.3%;
+    position: absolute;
+}
+
+.logo-footer img{
+    width: 120px;
+    margin-left: 6.7%;
+}
+
+.privacy{
+    margin-top: 25px;
+    margin-right: 4%;
+    float: right;
+    display: flex;
+}
+
+.privacy p{
+    color: #000;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    padding: 2.5px;
+}
+
