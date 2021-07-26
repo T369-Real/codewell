@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;700&display=swap');
 
 *{
     margin: 0;
@@ -56,9 +56,96 @@ button{
     background: #372865;
     color: #FFF;
     font-family: 'Nunito Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 700;
     border-radius: 4px;
     border-color: transparent;
     margin-top: -5px;
     margin-left: 2%;
+}
+
+.content-text{
+    width: 400px;
+    height: 35px;
+    background: #372865;
+    margin-top: 7.5%;
+    margin-left: 6%;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+.content-text p{
+    color: #c7bce1;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.content-text p a{
+    color: #c7bce1;
+}
+
+h1{
+    color: #353252;
+    font-size: 60px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    margin-left: 6%;
+}
+
+p{
+    color: #545454;
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    margin-left: 6%;
+}
+
+.form{
+    margin-left: 6%;
+}
+
+.form input{
+    width: 340px;
+    height: 50px;
+    margin-top: 20px;
+    color: #808080;
+    font-size: 17px;
+    border-color: #1212;
+    border-width: 1px;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.form button{
+    width: 130px;
+    height: 50px;
+    margin-top:  19.5px;
+    margin-left: 1%;
+    position: absolute;
+}
+
+#Illustration{
+    width: 440px;
+    margin-top: -22%;
+    margin-right: 7%;
+    float: right;
+}
+
+footer{
+    margin-top: 10%;
+}
+
+footer h2{
+    color: #545454;
+    font-size: 17px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    margin-left: 6%;
+}
+
+footer .content-companies{
+    width: 400px;
+    height: 50px;
+    margin-left: 6%;
+    margin-top: 20px;
 }
