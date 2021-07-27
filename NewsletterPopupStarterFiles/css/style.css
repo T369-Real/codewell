@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;600&display=swap');
 
 *{
     margin: 0;
@@ -9,43 +9,38 @@
 body{
     background-image: url('../Assets/Background.png');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .card-up{
-    width: 700px;
-    height: 400px;
-    background: #2355f2;
+    width: 580px;
+    height: 300px;
+    background-color: #2355f2;
     margin: auto;
-    margin-top: 2.5%;
+    margin-top: 7%;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 }
 
-.card-up .text-container{
-    width: 700px;
-    margin-top: 6%;
-    position: absolute;
-}
-
-.card-up .text-container p{
+.card-up h1{
     color: #FFF;
     text-align: center;
-    font-size: 40px;
     font-family: 'Work Sans', sans-serif;
-    font-weight: 800;
+    font-weight: 600;
+    font-size: 35px;
 }
 
 .card-up img{
-    width: 700px;
-    height: 400px;
+    width: 580px;
+    height: 300px;
+    margin-top: -36.5%;
 }
 
 .card-down{
-    width: 700px;
-    height: 420px;
+    width: 580px;
+    height: 350px;
     background: #FFF;
     margin: auto;
-    padding: 30px;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
 }
@@ -54,67 +49,81 @@ body{
     color: #333;
     text-align: center;
     font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
 }
 
-input{
-    width: 300px;
-    height: 40px;
-    margin-top: 40px;
-    margin-left: 20%;
+form{
+    display: flex;
+}
+
+.card-down input{
+    width: 280px;
+    height: 45px;
+    background: #f5f7fa;
+    margin-top: 20px;
+    margin-left: 15%;
+    color: #808080;
+    font-size: 13px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    border-color: #1212;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.card-down .button-subs{
+    width: 100px;
+    height: 45px;
+    background: #2355f2;
+    margin-top: 20px;
+    margin-left: 2%;
     border-radius: 4px;
     padding: 12px;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 800;
 }
 
-button{
-    width: 85px;
-    height: 40px;
-    background: #2355f2;
-    padding: 5px 5px;
-    border-color: transparent;
-    border-radius: 4px;
+.card-down .button-subs p{
     color: #FFF;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 800;
     text-align: center;
-    margin-left: 1.5%;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
 }
 
-#spam{
-    color: #808080;
-    font-size: 12px;
+.card-down #spam{
+    color: #000;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+    float: left;
+    margin-left: 15%;
     margin-top: 10px;
-    margin-right: 25.5%;
 }
 
-.profile-text{
-    margin-left: 32%;
-    margin-top: 40px;
+.card-down .profile-content{
+    width: 280px;
+    height: 80px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
 }
 
-.profile-text img{
-    width: 55px;
+.profile-content img{
+    width: 60px;
+    margin-left: 6%;
 }
 
-strong{
-    font-size: 13px;
+.profile-content strong{
+    font-size: 12px;
     font-family: 'Work Sans', sans-serif;
-    font-weight: 800;
-    margin-top: 12px;
-    margin-left: 0.5%;
-    position: absolute;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 2.5%;
 }
 
-.profile-text p{
+.profile-content span{
     color: #808080;
     font-size: 12px;
-    margin-right: 45%;
-    margin-top: -29px;
-}
-
-.card-down .let{
-    color: #808080;
-    font-size: 13px;
     font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-left: -32%;
 }
