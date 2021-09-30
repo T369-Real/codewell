@@ -9,7 +9,7 @@
 #hero{
     width: 100%;
     height: 800px;
-    background-image: url('/Assets/Background.png');
+    background-image: url('Assets/Background.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
